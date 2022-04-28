@@ -44,7 +44,7 @@ const Aeropay = () => {
 
 
     return (
-        <div className='relative w-[312px] z-[500]'>
+        <div className='relative w-[312px] z-[700]'>
             <Popover>
                 {({ open }) => (
                     <>

@@ -13,10 +13,10 @@ const Hero = () => {
     return (
         <div style={styles.background}>
             <div className="px-[2rem] max-w-[1464px]  h-full lg:h-[840px] flex flex-col items-center lg:flex-row md:flex-col" style={{ margin: '0 auto' }}>
-                <div className=" z-[500] lg:basis-1/2 md:basis-1/1 sm:basis-1/1 h-fit lg:h-[577px]">
+                <div className="z-[500] lg:basis-1/2 md:basis-1/1 sm:basis-1/1 h-fit lg:h-[577px]">
                     <h6 className="text-[16px] lg:text-[18px] text-center lg:text-left leading-[27px] tracking-[.25em] uppercase font-Montserrat-SemiBold text-slate-400 mb-[8px]">EXPLORE THE</h6>
-                    <h1 className="text-[96px] text-center lg:text-left lg:text-[200px] font-Montserrat-Black leading-[80px] lg:leading-[160px] gradient-text gradient-text-animation">TECH</h1>
-                    <h1 className="text-[96px] text-center lg:text-left lg:text-[200px] font-Montserrat-Black leading-[80px] lg:leading-[160px] text-slate-800">ZONE</h1>
+                    <h1 className="text-[96px] text-center lg:text-left xl:text-[200px] font-Montserrat-Black leading-[80px] xl:leading-[160px] gradient-text gradient-text-animation">TECH</h1>
+                    <h1 className="text-[96px] text-center lg:text-left xl:text-[200px] font-Montserrat-Black leading-[80px] xl:leading-[160px] text-slate-800">ZONE</h1>
                     <p className="text-[18px] text-center lg:text-left leading-[27px] font-Montserrat-SemiBold text-slate-400 mt-[24px]">Here you'll be able to exchange all of your hard-earned <br /> Aeropoints and exchange them for cool tech.</p>
                     <Link to="productsElement" smooth={true} duration={500}>
                         <button
@@ -31,14 +31,14 @@ const Hero = () => {
                     </Link>
 
                 </div>
-                <div className="hidden lg:flex md:relative basis-1/2 lg:h-[577px] ">
-                    <div className="lg:absolute right-0 bottom-0 rounded-[104px] w-[722px] h-[700px]" style={{ mixBlendMode: "unset", overflow: "hidden" }}>
-                        <img src={heroIllustration_desk} alt="hero" className="lg:absolute lg:flex md:hidden sm:hidden bottom-0 scale-125 z-[100]" />
+                <div className="hidden lg:flex md:relative basis-1/2 lg:h-[577px]">
+                    <div className="absolute right-0 bottom-0 rounded-[104px] xl:w-[722px] xl:h-[700px]" style={{ mixBlendMode: "unset", overflow: "hidden" }}>
+                        <img src={heroIllustration_desk} alt="hero" className="relative bottom-0 scale-125 z-[100] w-full" />
                     </div>
-                    <div className="lg:absolute lg:flex md:hidden sm:hidden right-0 bottom-0 rounded-[104px] w-[722px] h-[600px]" style={{ background: "linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%)", mixBlendMode: "multiply" }}>
+                    <div className="lg:absolute right-0 bottom-0 rounded-[104px] w-full h-full xl:w-[722px] xl:h-[600px]" style={{ background: "linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%)", mixBlendMode: "multiply" }}>
                     </div>
                 </div>
-                <div className="mx-[-2rem] lg:relative lg:basis-1/2 md:basis-1/1 h-fit lg:h-[577px] overflow-hidden lg:hidden">
+                <div className="mx-[-2rem] lg:hidden lg:relative lg:basis-1/2 md:basis-1/1 h-fit lg:h-[577px] overflow-hidden">
                     <img className="scale-150 mt-5" src={heroIllustration_desk} alt="hero" style={{ objectFit: "cover" }}  />
                 </div>
             </div>
