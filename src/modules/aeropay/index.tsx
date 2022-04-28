@@ -77,11 +77,11 @@ const Aeropay = () => {
                             ref={popperElement.current}
                             style={styles.popper}
                             {...attributes.popper}
-                            className="z-10 h-[404px] w-[312px] translate-y-[55px] "
+                            className="z-10 h-[404px] w-[312px] translate-x-[-30px] md:translate-x-[0px] translate-y-[55px] "
                         >
                             <Transition appear={true} show={open}>
                                 <Transition.Child
-                                    className="h-[404px] bg-white border border-slate-300 rounded-2xl px-4 sm:px-0 lg:max-w-3xl overflow-hidden"
+                                    className="h-[404px] bg-white border border-slate-300 rounded-2xl lg:max-w-3xl overflow-hidden"
                                     enter="transition ease-out duration-100"
                                     enterFrom="transform opacity-0 scale-95"
                                     enterTo="transform opacity-100 scale-100"
@@ -89,7 +89,7 @@ const Aeropay = () => {
                                     leaveFrom="transform opacity-100 scale-100"
                                     leaveTo="transform opacity-0 scale-95"
                                 >
-                                    <div className="bg-gray-50 h-full w-full overflow-hidden">
+                                    <div className="h-full w-full overflow-hidden">
                                         <div className='border-b-[1px] border-slate-300 h-[59px] flex items-center justify-between px-[24px]'>
                                             <h3 className='font-Montserrat-SemiBold text-[18px]'>Add Balance</h3>
                                             
