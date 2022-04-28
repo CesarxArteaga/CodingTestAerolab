@@ -194,7 +194,7 @@ const Catalog = () => {
                 }
             </div>
 
-            <div className=" h-[64px] flex flex-row items-center text-[18px] mb-[160px]">
+            <div className=" h-[64px] flex flex-col md:flex-row items-center text-[18px] mb-[160px]">
                 <div className="w-full flex justify-center">
                     <span className="font-Montserrat-SemiBold gradient-text">
                         {products?.length! * currentPage}
